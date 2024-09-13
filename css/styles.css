@@ -19,6 +19,9 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
               }
+ .link {
+                font-weight: 500;
+       }
  
 .header-menu :hover {
         font-weight: 500;

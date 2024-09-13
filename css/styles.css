@@ -1,13 +1,13 @@
 
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    background: #fff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        background: #fff;
      }
 
  .logo-header {
@@ -23,7 +23,7 @@ body {
         color: #2e2f42;
       }
  .link {
-             text-decoration: none;
+        text-decoration: none;
        }
  
 .header-menu {
@@ -35,14 +35,18 @@ body {
 
 }
 .header-address {
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
-    
-        /* line-height: 24px; */
+        font-style: normal;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.link:hover,
+.link:focus {
+    color: #404bbf;
+        }
 
 
 

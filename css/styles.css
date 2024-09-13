@@ -22,9 +22,15 @@ body {
 .logo {
         color: #2e2f42;
       }
- .link {
-         text-decoration: none;
-       }
+ 
+          .link-menu {
+            color: #2e2f42;
+              text-decoration: none;
+          }
+                  .link-address {
+                    color: #434455;
+                      text-decoration: none;
+                  }
  
  
 .header-menu {

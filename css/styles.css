@@ -22,14 +22,10 @@ body {
 .logo {
         color: #2e2f42;
       }
- .link-menu {
-        color: #2e2f42;
-        text-decoration: none;
+ .link {
+         text-decoration: none;
        }
- .link-address {
-     color: #434455;
-     text-decoration: none;
- }
+ 
  
 .header-menu {
             font-weight: 500;
@@ -48,13 +44,14 @@ body {
         color: #434455;
 }
 
-.link-menu .link-address:hover{
-    color: #404bbf;
+ .header-address :hover,
+ .header-address :focus {
+   color: #404bbf;
 }
-.link-menu .link-address:focus {
-    color: #404bbf;
-        }
-
+.header-menu :hover,
+.header-menu :focus {
+     color: #404bbf;
+ }
 
 
 

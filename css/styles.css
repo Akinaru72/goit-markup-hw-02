@@ -48,7 +48,9 @@ body {
         color: #434455;
 }
 
-.link-menu .link-address:hover,
+.link-menu .link-address:hover{
+    color: #404bbf;
+}
 .link-menu .link-address:focus {
     color: #404bbf;
         }

@@ -89,7 +89,7 @@ body {
     background: #4d5ae5;
     cursor: pointer;
      } 
-      .main-hero .bttn :hover {
+      .main-hero :hover {
      background-color: #404bbf;
      }
 
@@ -101,7 +101,9 @@ body {
         /* .main-second */
 }
 
-
+.main-second-list {
+        /*.maim-second-list*/
+}
 h3 {
         font-weight: 500;
         font-size: 20px;
@@ -115,10 +117,10 @@ h3 {
         background: #f4f4fd;
 }
 
-h2 {
+.main-third-title {
 
         font-size: 36px;
-
+background-color: #FFFFFF;
         /* line-height: 40px; */
         line-height: 1.11;
         letter-spacing: 0.02em;

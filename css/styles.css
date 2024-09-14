@@ -103,6 +103,7 @@ body {
 
 .main-second-list {
     /*.maim-second-list*/
+background-color: #FFFFFF;
                   }
 .main-title-three {
     font-weight: 500;
@@ -118,7 +119,7 @@ body {
     background: #f4f4fd;
             }
 
-.main-third-list {
+.main-list-third {
     background-color: #FFFFFF;
                  }
 
@@ -135,6 +136,10 @@ body {
 .main-fourth{
         /*main-4*/
              }
+                     .main-fourth-list{
+                        background-color: #FFFFFF;
+
+                     }
 
 .text {
     font-weight: 400;

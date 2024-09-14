@@ -52,11 +52,11 @@ body {
         color: #434455;
                 }
 
-.header-menu .header-address .btn :hover {
+.header-menu .header-address:hover {
         color: #404bbf;
                                     }
 
-.header-menu .header-address .btn :focus {
+.header-menu .header-address:focus {
         color: #404bbf;
                                      }
 
@@ -83,14 +83,24 @@ body {
     display: flex;
     font-weight: 500;
     font-size: 16px
-    color: #fff;
     cursor: pointer;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     background: #4d5ae5;
   
    
+} 
+
+.btn:hover{
+color: #404bbf;
 }
+
+
+
+
+
+
 
 .main-2 {
     width: 1128px;

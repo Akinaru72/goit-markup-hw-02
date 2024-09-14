@@ -50,7 +50,10 @@ body {
         letter-spacing: 0.02em;
                 }
 
-.header-menu .header-address :hover,
+.header-menu .header-address :hover {
+        color: #404bbf;
+                                    }
+
 .header-menu .header-address :focus {
         color: #404bbf;
                                      }
@@ -61,12 +64,12 @@ body {
 
 
 
-.main-1 {
+.main-hero {
         
         background: #2e2f42;
 
 }
-.main-1 {
+.main-hero-solutions {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;

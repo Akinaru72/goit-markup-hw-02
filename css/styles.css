@@ -96,8 +96,9 @@ body {
       } 
 
 
-.bttn :hover,
-.bttn :focus {
+
+.bttn:hover,
+ .bttn:focus{
     background-color: #404bbf;
              }
 

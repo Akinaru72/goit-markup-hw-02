@@ -96,10 +96,10 @@ body {
       } 
 
 
-.main-hero .bttn :hover,
-.main-hero .bttn :focus {
+.bttn :hover,
+.bttn :focus {
     background-color: #404bbf;
-                        }
+             }
 
 /*main-2*/
 

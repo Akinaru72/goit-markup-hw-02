@@ -1,12 +1,4 @@
-/* -------------------------body------------------------ */
-body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  background: #fff;
-}
-
+/* ==========body========== */
 ul {
   list-style-type: none;
 }
@@ -19,8 +11,16 @@ a {
 button {
   cursor: pointer;
 }
-/* -------------------------end body---------------------- */
-/* ---------------------------header---------------------- */
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background: #ffffff;
+}
+/* ==========end body============ */
+/* ==========header============== */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -28,67 +28,58 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .logo-web {
   color: #4d5ae5;
 }
 
-.link-nav {
+.nav-link {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.link-address {
-  font-weight: 400;
-  font-size: 16px;
+.address-link {
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
-.link-address:hover,
-.link-address:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
-/* ---------------------------end header------------------ */
-/* ---------------------------section hero---------------- */
+/* ==========end header=============== */
+/* ============section hero=========== */
 .main-hero {
-  background-color: #2e2f42;
+  background: #2e2f42;
 }
 
 .main-title-one {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07143;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
-.bttn {
-  background-color: #4d5ae5;
+.main-button {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
+  background: #4d5ae5;
 }
 
-.bttn:hover,
-.bttn:focus {
+.main-button:hover,
+.main-button:focus {
   background: #404bbf;
 }
-/* ------------------------end section hero---------------- */
-/* ------------------------ section advantages------------- */
-
+/* ==========end section hero========== */
+/* ==========section advantages========== */
 .main-title-three {
   font-weight: 500;
   font-size: 20px;
@@ -96,16 +87,14 @@ button {
   color: #2e2f42;
 }
 
-.text {
+.main-text {
   font-weight: 400;
-  line-height: 1.5;
 }
-
-.main-advantages .text {
-  color: #434455;
+/* ======end section advantages========== */
+/* =================team================= */
+.main-team {
+  background: #f4f4fd;
 }
-/* ------------------------end section advantages---------- */
-/* ------------------------section team-------------------- */
 .main-title-two {
   font-weight: 700;
   font-size: 36px;
@@ -114,18 +103,19 @@ button {
   color: #2e2f42;
 }
 
-/* ------------------------end section team---------------- */
-/* ------------------------ section portfolio-------------- */
-/* ------------------------end section portfolio----------- */
-/* -------------------------footer------------------------- */
-footer {
+/* ==============end team================ */
+/* ==============portfolio================ */
+/* ==============end portfolio============ */
+/* =================footer================ */
+.page-footer {
   background: #2e2f42;
 }
-footer .logo {
+
+.page-footer .logo {
   color: #f4f4fd;
 }
 
-footer .text {
+.page-footer .main-text {
   color: #f4f4fd;
 }
-/* -----------------------end footer----------------------- */
+/* ==============end footer================ */

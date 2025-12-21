@@ -1,83 +1,65 @@
 # goit-markup-hw-02
 
-• Створи репозиторій goit-markup-hw-02.
+**Homework #2:** HTML markup and styling of the layout page.
 
-• Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.
+Set up GitHub Pages and add a link to the live page in the **About** section of the repository.
 
-• Виконай розмітку і оформлення макета сторінки домашнього завдання #2.
+---
 
-• Для оптимізації зображень використовуй сервіс squoosh.
+## A — Project
 
-• Налаштуй GitHub Pages і додай посилання на живу сторінку в секцію About GitHub-репозиторія.
+- **A1** — The project root contains an `images/` folder with images.
+- **A2** — The project root contains a `css/` folder with the stylesheet.
+- **A3** — All styles are written in a single `styles.css` file inside the `css/` folder.
+- **A4** — File names contain **no uppercase letters, spaces, or transliteration**; only lowercase English letters and words.
+- **A5** — Code formatted using **Prettier**.
+- **A6** — All images and text content are taken from the design layout.
+- **A7** — [modern-normalize](https://github.com/sindresorhus/modern-normalize) is included.
+- **A8** — All raster images optimized using [Squoosh](https://squoosh.app/).
+- **A9** — Code follows the [Code Guide](https://codeguide.co/) recommendations.
 
-На що буде звертати увагу ментор :
+---
 
-Проєкт
+## B — Markup
 
-«A1» У корені проєкту є папка images з зображеннями.
+- **B1** — Markup of the "Our Portfolio" section is written in `index.html`. Full HTML markup of all layout elements is completed.
+- **B2** — Tags are used according to their semantic meaning.
+- **B3** — HTML passes validation with no errors using [W3C Validator](https://validator.w3.org/nu/#textarea).
+- **B4** — Class names are descriptive and understandable for other developers.
+- **B5** — Class names contain only lowercase English letters and words, no spaces, uppercase letters, transliteration, or tag names. Multi-word class names use hyphens.
+- **B6** — All `<img>` tags include size attributes, at least `width`.
+- **B7** — Images exported from the layout in **.jpg** format.
+- **B8** — Groups of similar elements are wrapped in `<ul>` lists.
+- **B9** — All required fonts and variations (weight/style) are imported from Google Fonts in one link. Raleway weight 700; Roboto weights 400, 500, 700.
 
-«A2» У корені проєкту є папка css з файлом стилів.
+---
 
-«A3» Всі стилі написані в одному файлі styles.css, який знаходиться в папці css.
+## C — Styling
 
-«A4» У назвах файлів відсутні великі літери, пробіли і трансліт. Назви містять тільки літери і слова англійської мови.
+- **C1** — Styling uses class selectors.
+- **C2** — No `!important` in styles.
+- **C3** — Interactive elements (buttons and links) have active states on hover and focus, as per the style guide.
+- **C4** — Header contact text changes color on hover and focus.
+- **C5** — `font-family` on `<body>` uses dominant font Roboto.
+- **C6** — Alternative fonts and fallback sans-serif declared at the end of `font-family` in `<body>`.
+- **C7** — Roboto font-family explicitly declared only on `<body>`, other elements inherit.
+- **C8** — `<body>` has text `color` set to dominant color from layout; other text inherits or overrides this.
+- **C9** — Font-size of all text elements matches layout exactly.
+- **C10** — Line-height of all text elements matches layout and set as a multiplier, not in px.
+- **C11** — Colors (`color` and `background-color`) match layout exactly.
+- **C12** — Font-weight matches layout. Only explicitly set if differs from browser default.
+- **C13** — Buttons have `cursor: pointer`.
+- **C14** — Styles do not repeat browser default values (e.g., no need to set `cursor: pointer` on links or `font-weight: 400` on paragraphs).
 
-«A5» Вихідний код відформатований за допомогою Prettier.
+---
 
-«A6» Всі зображення та текстовий контент взяті з макета.
+## Resources
 
-«A7» Підключений нормалізатор стилів modern-normalize.
+- [Squoosh](https://squoosh.app/) — image optimization
+- [Code Guide](https://codeguide.co/) — coding style guide
+- [W3C Validator](https://validator.w3.org/nu/#textarea) — HTML validation
+- [modern-normalize](https://github.com/sindresorhus/modern-normalize) — CSS normalization
 
-«A8» Всі растрові зображення оптимізовані з використанням squoosh.
+---
 
-«A9» Код написаний з дотриманням настанови.
-
-Розмітка
-
-«B1» Розмітка секції Our Portfolio набрана у файлі index.html. Виконана HTML-розмітка всіх елементів макета.
-
-«B2» Теги використані відповідно до їх семантичного змісту.
-
-«B3» HTML проходить перевірку валідатором без помилок.
-
-«B4» Імена класів описові та зрозумілі іншому розробнику.
-
-«B5» Імена класів не містять великих літер, пробілів, трансліту і назв тегів. Імена містять тільки літери і слова англійської мови. Якщо ім'я класу складається з декількох слів, вони розділяються дефісом.
-
-«B6» У тегів <img> вказані атрибути розмірів, як мінімум width.
-
-«B7» Зображення експортовані з макета у форматі jpg.
-
-«B8» Групи однотипних елементів зібрані у списки ul.
-
-«B9» Всі необхідні шрифти за макетом та їх варіації (вага і накреслення) підключені з сервісу Google Fonts одним посиланням. Необхідна вага для Raleway - 700, а для Roboto - 400, 500, 700.
-
-Оформлення
-
-«C1» Для оформлення використовуються селектори класу.
-
-«C2» В стилях відсутній !important.
-
-«C3» Інтерактивні елементи (кнопки і посилання), при наведенні мишкою або фокусі з клавіатури, мають активний стан, вказаний в Style guide (зміна кольору).
-
-«С4» Текст контактів в хедері змінює колір при ховері і фокусі.
-
-«С5» Для елемента <body> задана властивість font-family з домінантним шрифтом на макеті Roboto.
-
-«С6» Вказані альтернативні варіанти шрифта і тип сімейства (без зарубок) в кінці переліку font-family в елемента <body>.
-
-«С7» Сімейство шрифтів Roboto явно задане тільки для елемента <body>, інші елементи наслідують його.
-
-«С8» Для елемента <body> задана властивість color з домінантним на макеті кольором тексту. Решта тексту наслідує або перекриває це значення.
-
-«С9» Розмір шрифту (властивість font-size) всіх текстових елементів точно відповідає значенням з макета.
-
-«С10» Висота рядка (властивість line-height) всіх текстових елементів точно відповідає значенням з макета і задана як множник, а не в px.
-
-«С11» Колір (властивості color та background-color) всіх елементів точно відповідає значенням з макета.
-
-«С12» Вага шрифту (властивість font-weight) всіх текстових елементів точно відповідає значенням з макета. Вага шрифту явно вказана тільки, якщо значення в макеті відрізняється від стандартного для цього елемента в браузері.
-
-«С13» Кнопкам задана властивість cursor зі значенням pointer.
-
-«С14» У стилях не повторюються значення властивостей, які задані браузером за замовчуванням. Наприклад, посиланням не потрібно вказувати cursor: pointer, а абзацам font-style: normal або font-weight: 400.
+**Live page:** [GitHub Pages](https://akinaru72.github.io/goit-markup-hw-02/)

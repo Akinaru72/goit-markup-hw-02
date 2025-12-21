@@ -1,6 +1,6 @@
 # goit-markup-hw-02
 
-**Homework #2:** HTML markup and styling of the layout page.
+[**Complete the HTML markup and styling of the layout page.**](https://www.figma.com/design/wuEpGhwCepGCOUw7mZFRac/Web-Studio--Version-5.0-?node-id=296708-626&p=f&t=6UB4iLetmuLE8hKI-0)
 
 Set up GitHub Pages and add a link to the live page in the **About** section of the repository.
 
@@ -14,9 +14,9 @@ Set up GitHub Pages and add a link to the live page in the **About** section of 
 - **A4** — File names contain **no uppercase letters, spaces, or transliteration**; only lowercase English letters and words.
 - **A5** — Code formatted using **Prettier**.
 - **A6** — All images and text content are taken from the design layout.
-- **A7** — [modern-normalize](https://github.com/sindresorhus/modern-normalize) is included.
-- **A8** — All raster images optimized using [Squoosh](https://squoosh.app/).
-- **A9** — Code follows the [Code Guide](https://codeguide.co/) recommendations.
+- **A7** — modern-normalize is included.
+- **A8** — All raster images optimized using Squoosh.
+- **A9** — Code follows the Code Guide recommendations.
 
 ---
 
@@ -24,7 +24,7 @@ Set up GitHub Pages and add a link to the live page in the **About** section of 
 
 - **B1** — Markup of the "Our Portfolio" section is written in `index.html`. Full HTML markup of all layout elements is completed.
 - **B2** — Tags are used according to their semantic meaning.
-- **B3** — HTML passes validation with no errors using [W3C Validator](https://validator.w3.org/nu/#textarea).
+- **B3** — HTML passes validation with no errors using W3C Validator.
 - **B4** — Class names are descriptive and understandable for other developers.
 - **B5** — Class names contain only lowercase English letters and words, no spaces, uppercase letters, transliteration, or tag names. Multi-word class names use hyphens.
 - **B6** — All `<img>` tags include size attributes, at least `width`.
@@ -55,11 +55,12 @@ Set up GitHub Pages and add a link to the live page in the **About** section of 
 
 ## Resources
 
-- [Squoosh](https://squoosh.app/) — image optimization
-- [Code Guide](https://codeguide.co/) — coding style guide
-- [W3C Validator](https://validator.w3.org/nu/#textarea) — HTML validation
-- [modern-normalize](https://github.com/sindresorhus/modern-normalize) — CSS normalization
+- **Squoosh** — image optimization
+- **Code Guide** — coding style guide
+- **W3C Validator** — HTML validation
+- **modern-normalize** — CSS normalization
+- **Design Layout** — [open design](https://www.figma.com/design/wuEpGhwCepGCOUw7mZFRac/Web-Studio--Version-5.0-?node-id=296708-626&p=f&t=6UB4iLetmuLE8hKI-0)
 
 ---
 
-**Live page:** [GitHub Pages](https://akinaru72.github.io/goit-markup-hw-02/)
+**Live page:** GitHub Pages
